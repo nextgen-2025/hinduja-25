@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -15,3 +16,8 @@ If you are developing a production application, we recommend using TypeScript an
 # hinduja-25
 Hinduja Website _ Saksham
 >>>>>>> 55d54cf882e65c0b3c6f9291388500d5bbb11ab9
+=======
+# Hinduja Website
+This is the official repo for the Hinduja project.
+
+>>>>>>> 67d33d5b7912e22f7877dcd534129da9152f9b71
