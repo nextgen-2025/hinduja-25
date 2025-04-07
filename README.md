@@ -1,2 +1,3 @@
-# hinduja-25
-Hinduja Website _ Saksham
+# Hinduja Website
+This is the official repo for the Hinduja project.
+
