@@ -33,8 +33,14 @@ const Navbar = () => {
       <div className="navbarList hidden md:flex justify-between items-center text-blue-800 p-4">
         <ul className="flex space-x-4">
           {menuItems.map((item, index) => (
-            <li key={index} className="hover:text-blue-600 cursor-pointer">
-              <a href={item.link}>{item.name}</a>
+            <li key={index} className="group relative cursor-pointer">
+              <a
+                href={item.link}
+                className="text-gray-800 transition-transform duration-300 ease-in-out group-hover:-translate-y-0.5"
+              >
+                {item.name}
+                <span className="block h-[2px] w-full bg-[#494753] origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+              </a>
             </li>
           ))}
         </ul>
