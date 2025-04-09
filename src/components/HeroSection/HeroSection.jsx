@@ -1,5 +1,5 @@
 import React from "react";
-import Appoinment from "../AppointmentForm/appointment";
+import Appoinment from "../AppointmentForm/Appointment";
 
 const HeroSection = () => {
   return (
